@@ -1,7 +1,7 @@
 <h1 style="align-content: center">Desafio da Oracle: API REST - Forum Alura</h1><br><br>
 
 <p style="align-content: center">
-    <img src="https://img.shields.io/static/v1?label=JAVA&message=17&color=blue&style=for-the-badge"/>
+    <img src="https://img.shields.io/static/v1?label=JAVA&message=11&color=blue&style=for-the-badge"/>
     <img src="https://img.shields.io/static/v1?label=Spring&message=Boot&color=blue&style=for-the-badge" />
     <img src="http://img.shields.io/static/v1?label=Oracle&message=ONE&color=blue&style=for-the-badge"/>
     <img src="http://img.shields.io/static/v1?label=STATUS&message=Em-Andamento&color=blue&style=for-the-badge"/>
