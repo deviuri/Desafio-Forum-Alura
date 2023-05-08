@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="271be9a2-8a2d-48ad-a67a-ecd956060dca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/controller/TopicoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Autor/CadastroUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Autor/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso/CursoCadastro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/AtualizaçãoTopico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/DetalhamentoTopico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/Topico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/TopicoCadastro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/CursoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/TopicoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create-tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/forum/ForumApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/ForumApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Resposta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Resposta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/StatusTopico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/StatusTopico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/br/alura/forum/ForumApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/br/alura/forum/ForumForumApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Record" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2PIroY6N4gEp6FPcp7BrjvYJZsh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Forum-Alura",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/iurim/OneDrive/Área de Trabalho/Projeos/challenge-one-forum-alura",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.4624724",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "spring.configuration.checksum": "bbdbe444288550204c968fe7002a97a9",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\iurim\OneDrive\Área de Trabalho\challenge-one-forum-alura\src\main\resources\db\migration" />
+      <recent name="C:\Users\iurim\OneDrive\Área de Trabalho\challenge-one-forum-alura\src\main\resources\db" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.br.alura.modelo.Topico" />
+      <recent name="com.br.alura.modelo.Curso" />
+      <recent name="com.br.alura.modelo.Autor" />
+      <recent name="com.br.alura.repository" />
+      <recent name="com.br.alura" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="challenge-one-forum-alura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="challenge-one-forum-alura" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.br.alura.ForumApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ForumApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="271be9a2-8a2d-48ad-a67a-ecd956060dca" name="Changes" comment="" />
+      <created>1683155615053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683155615053</updated>
+      <workItem from="1683155617407" duration="8089000" />
+      <workItem from="1683218411681" duration="8670000" />
+      <workItem from="1683237111081" duration="1275000" />
+      <workItem from="1683247727096" duration="5557000" />
+      <workItem from="1683260593381" duration="17000" />
+      <workItem from="1683262600567" duration="15000" />
+      <workItem from="1683298177415" duration="137000" />
+      <workItem from="1683298543126" duration="412000" />
+      <workItem from="1683298966041" duration="2939000" />
+      <workItem from="1683314294505" duration="1999000" />
+      <workItem from="1683328600207" duration="1588000" />
+      <workItem from="1683347203369" duration="59000" />
+      <workItem from="1683347629955" duration="5311000" />
+      <workItem from="1683395531191" duration="14371000" />
+      <workItem from="1683420264436" duration="4760000" />
+      <workItem from="1683433534691" duration="22314000" />
+      <workItem from="1683521076504" duration="857000" />
+      <workItem from="1683522023458" duration="9000" />
+      <workItem from="1683524955750" duration="756000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
