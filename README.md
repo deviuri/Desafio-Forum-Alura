@@ -31,7 +31,8 @@ Nossa API se concentrará especificamente nos tópicos, e deve permitir aos usu�
 :technologist: Endpoint de Usuário
 - Criar um Usuário
 - Listar Usuários
-- Falta implementar mais funcionalidades
+- Deketar Usuário
+- Buscar um Usuário específico com id
 
 :teacher:      Endpoint de Curso
 - Criar um Curso
