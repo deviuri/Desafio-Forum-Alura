@@ -1,11 +1,11 @@
 package com.br.alura.controller;
 
-import com.br.alura.modelo.Autor.Usuario;
-import com.br.alura.modelo.Curso.Curso;
-import com.br.alura.modelo.Topico.DetalhamentoTopico;
-import com.br.alura.modelo.Topico.Topico;
-import com.br.alura.modelo.Topico.TopicoCadastro;
-import com.br.alura.modelo.Topico.AtualizaçãoTopico;
+import com.br.alura.domain.Autor.Usuario;
+import com.br.alura.domain.Curso.Curso;
+import com.br.alura.domain.Topico.DetalhamentoTopico;
+import com.br.alura.domain.Topico.Topico;
+import com.br.alura.domain.Topico.TopicoCadastro;
+import com.br.alura.domain.Topico.AtualizaçãoTopico;
 import com.br.alura.repository.UsuarioRepository;
 import com.br.alura.repository.CursoRepository;
 import com.br.alura.repository.TopicoRepository;
@@ -45,6 +45,13 @@ public class TopicoController {
         if (topicoTitulo.equals(topico) || topicoMensagem.equals(topico)) {
             throw new RuntimeException("Já existe!!");
         }
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity pegarTopicoPorId(@PathVariable Long id){
+        var topico = topicoRepository.getReferenceById(id);
+
+        return ResponseEntity.ok(new DetalhamentoTopico(topico));
     }
 
     @PostMapping
@@ -97,7 +104,7 @@ public class TopicoController {
 
         return ResponseEntity.noContent().build();
     }
-    @GetMapping("/{curso}")
+    @GetMapping("/curso/{curso}")
     public ResponseEntity<List<DetalhamentoTopico>> buscarPorNomeDoCurso(@PathVariable String curso, Pageable pageable) {
 
         Page<Topico> topicos = topicoRepository.findAllByCurso_Nome(pageable, curso);

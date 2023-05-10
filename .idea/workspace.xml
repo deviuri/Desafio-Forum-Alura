@@ -5,34 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="271be9a2-8a2d-48ad-a67a-ecd956060dca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/controller/TopicoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Autor/CadastroUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Autor/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso/CursoCadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/AtualizaçãoTopico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/DetalhamentoTopico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/Topico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/TopicoCadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/CursoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/TopicoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create-tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/forum/ForumApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/ForumApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Resposta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Resposta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/StatusTopico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/StatusTopico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Usuario.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Resposta/Resposta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/093be308-01de-4888-86ee-6aaf7f620610.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/093be308-01de-4888-86ee-6aaf7f620610.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/controller/TopicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/controller/TopicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Autor/CadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Autor/CadastroUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Autor/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Autor/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Curso/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso/CursoCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Curso/CursoCadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Resposta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/AtualizaçãoTopico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/AtualizaçãoTopico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/DetalhamentoTopico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/DetalhamentoTopico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/StatusTopico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/StatusTopico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/Topico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/Topico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/TopicoCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/TopicoCadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/CursoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/CursoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/TopicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/TopicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/UsuarioRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/br/alura/forum/ForumApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/br/alura/forum/ForumForumApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/controller/TopicoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/alura/controller/TopicoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Autor/CadastroUsuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Autor/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Curso/Curso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Curso/CursoCadastro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Resposta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/AtualizaçãoTopico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/DetalhamentoTopico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/StatusTopico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/Topico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/TopicoCadastro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/repository/CursoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/alura/repository/CursoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/repository/TopicoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/alura/repository/TopicoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/alura/repository/UsuarioRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,37 +83,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Forum-Alura",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/iurim/OneDrive/Área de Trabalho/Projeos/challenge-one-forum-alura",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.4624724",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "spring.configuration.checksum": "bbdbe444288550204c968fe7002a97a9",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Forum-Alura&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/iurim/OneDrive/Área de Trabalho/Projeos/challenge-one-forum-alura/forum&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4624724&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bbdbe444288550204c968fe7002a97a9&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\iurim\OneDrive\Área de Trabalho\challenge-one-forum-alura\src\main\resources\db\migration" />
@@ -173,7 +187,19 @@
       <workItem from="1683433534691" duration="22314000" />
       <workItem from="1683521076504" duration="857000" />
       <workItem from="1683522023458" duration="9000" />
-      <workItem from="1683524955750" duration="756000" />
+      <workItem from="1683524955750" duration="1124000" />
+      <workItem from="1683526645121" duration="44000" />
+      <workItem from="1683598410429" duration="356000" />
+      <workItem from="1683603666209" duration="25000" />
+      <workItem from="1683604130685" duration="10000" />
+      <workItem from="1683605789114" duration="3294000" />
+      <workItem from="1683609185116" duration="147000" />
+      <workItem from="1683609363775" duration="11000" />
+      <workItem from="1683661582895" duration="2596000" />
+      <workItem from="1683666739284" duration="3063000" />
+      <workItem from="1683669857751" duration="464000" />
+      <workItem from="1683680030538" duration="173000" />
+      <workItem from="1683689697084" duration="611000" />
     </task>
     <servers />
   </component>
