@@ -1,6 +1,5 @@
 package com.br.alura.controller;
 
-import com.br.alura.domain.Autor.CadastroUsuario;
 import com.br.alura.domain.Autor.Usuario;
 import com.br.alura.domain.Autor.UsuarioLogin;
 import com.br.alura.infra.Security.TokenService;
@@ -14,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/login")
-public class Login {
+public class LoginController {
 
     @Autowired
     private AuthenticationManager manager;
