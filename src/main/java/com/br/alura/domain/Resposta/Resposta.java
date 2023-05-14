@@ -19,10 +19,10 @@ public class Resposta {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String mensagem;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Topico topico;
 	private LocalDateTime dataCriacao;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Usuario usuario;
 	private Boolean solucao = false;
 

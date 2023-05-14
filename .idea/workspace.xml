@@ -4,40 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="271be9a2-8a2d-48ad-a67a-ecd956060dca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Resposta/Resposta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/093be308-01de-4888-86ee-6aaf7f620610.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/093be308-01de-4888-86ee-6aaf7f620610.xml" afterDir="false" />
+    <list default="true" id="139611be-666c-457a-a803-73b76fde9188" name="Changes" comment="Novas-implementacoes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/controller/TopicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/controller/TopicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Autor/CadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Autor/CadastroUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Autor/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Autor/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Curso/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Curso/CursoCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Curso/CursoCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Resposta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/AtualizaçãoTopico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/AtualizaçãoTopico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/DetalhamentoTopico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/DetalhamentoTopico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/StatusTopico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/StatusTopico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/Topico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/Topico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/modelo/Topico/TopicoCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/domain/Topico/TopicoCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/CursoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/CursoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/TopicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/TopicoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/alura/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/controller/TopicoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/alura/controller/TopicoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Autor/CadastroUsuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Autor/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Curso/Curso.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Curso/CursoCadastro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Resposta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/AtualizaçãoTopico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/DetalhamentoTopico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/StatusTopico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/Topico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/modelo/Topico/TopicoCadastro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/repository/CursoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/alura/repository/CursoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/repository/TopicoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/alura/repository/TopicoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/br/alura/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/br/alura/repository/UsuarioRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,97 +19,35 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Record" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2PIroY6N4gEp6FPcp7BrjvYJZsh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Forum-Alura&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/iurim/OneDrive/Área de Trabalho/Projeos/challenge-one-forum-alura/forum&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4624724&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;bbdbe444288550204c968fe7002a97a9&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "git-widget-placeholder": "Forum-Alura",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4624724",
+    "settings.editor.selected.configurable": "proofread"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\iurim\OneDrive\Área de Trabalho\challenge-one-forum-alura\src\main\resources\db\migration" />
-      <recent name="C:\Users\iurim\OneDrive\Área de Trabalho\challenge-one-forum-alura\src\main\resources\db" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.br.alura.modelo.Topico" />
-      <recent name="com.br.alura.modelo.Curso" />
-      <recent name="com.br.alura.modelo.Autor" />
-      <recent name="com.br.alura.repository" />
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="com.br.alura" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="challenge-one-forum-alura" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="challenge-one-forum-alura" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ForumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="forum" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.br.alura.ForumApplication" />
@@ -161,60 +67,57 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="271be9a2-8a2d-48ad-a67a-ecd956060dca" name="Changes" comment="" />
-      <created>1683155615053</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1683155615053</updated>
-      <workItem from="1683155617407" duration="8089000" />
-      <workItem from="1683218411681" duration="8670000" />
-      <workItem from="1683237111081" duration="1275000" />
-      <workItem from="1683247727096" duration="5557000" />
-      <workItem from="1683260593381" duration="17000" />
-      <workItem from="1683262600567" duration="15000" />
-      <workItem from="1683298177415" duration="137000" />
-      <workItem from="1683298543126" duration="412000" />
-      <workItem from="1683298966041" duration="2939000" />
-      <workItem from="1683314294505" duration="1999000" />
-      <workItem from="1683328600207" duration="1588000" />
-      <workItem from="1683347203369" duration="59000" />
-      <workItem from="1683347629955" duration="5311000" />
-      <workItem from="1683395531191" duration="14371000" />
-      <workItem from="1683420264436" duration="4760000" />
-      <workItem from="1683433534691" duration="22314000" />
-      <workItem from="1683521076504" duration="857000" />
-      <workItem from="1683522023458" duration="9000" />
-      <workItem from="1683524955750" duration="1124000" />
-      <workItem from="1683526645121" duration="44000" />
-      <workItem from="1683598410429" duration="356000" />
-      <workItem from="1683603666209" duration="25000" />
-      <workItem from="1683604130685" duration="10000" />
-      <workItem from="1683605789114" duration="3294000" />
-      <workItem from="1683609185116" duration="147000" />
-      <workItem from="1683609363775" duration="11000" />
-      <workItem from="1683661582895" duration="2596000" />
-      <workItem from="1683666739284" duration="3063000" />
-      <workItem from="1683669857751" duration="464000" />
-      <workItem from="1683680030538" duration="173000" />
-      <workItem from="1683689697084" duration="611000" />
-    </task>
-    <servers />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\iurim\AppData\Roaming\Subversion</configuration>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Novas-implementacoes">
+      <created>1684030269364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684030269364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Forum-Alura" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Novas-implementacoes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novas-implementacoes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

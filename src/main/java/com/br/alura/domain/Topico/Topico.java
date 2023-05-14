@@ -4,6 +4,7 @@ import com.br.alura.domain.Autor.Usuario;
 import com.br.alura.domain.Curso.Curso;
 import com.br.alura.domain.Resposta.Resposta;
 import jakarta.persistence.*;
+import jakarta.persistence.criteria.Fetch;
 import lombok.*;
 
 import java.time.LocalDateTime;

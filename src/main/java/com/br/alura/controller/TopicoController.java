@@ -71,7 +71,7 @@ public class TopicoController {
 
         var uri = uriBuilder.path("/forum/{id}").buildAndExpand(topico.getId()).toUri();
 
-        verificarExistenciaTopico(topico);
+//        verificarExistenciaTopico(topico);
 
         return ResponseEntity.created(uri).body(new DetalhamentoTopico(topico));
     }
