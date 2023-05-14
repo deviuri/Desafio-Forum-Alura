@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping("/login")
+@RequestMapping
 public class LoginController {
 
     @Autowired
@@ -23,7 +23,7 @@ public class LoginController {
 
 
 
-    @PostMapping
+    @PostMapping("/login")
     public String login(@RequestBody @Valid UsuarioLogin login){
         var user = new UsernamePasswordAuthenticationToken(login.email(), login.senha());
 

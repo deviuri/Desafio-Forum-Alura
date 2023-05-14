@@ -19,6 +19,7 @@ Nossa API se concentrará especificamente nos tópicos, e deve permitir aos usu�
 -  Mostrar um tópico específico
 -  Atualizar um tópico
 -  Apagar um tópico
+-  Sistema de Autenticação
 
 ## Endpoints Implementados
 :question:      Endpoint de Tópico
@@ -33,6 +34,7 @@ Nossa API se concentrará especificamente nos tópicos, e deve permitir aos usu�
 - Listar Usuários
 - Deketar Usuário
 - Buscar um Usuário específico com id
+- Logar com e-mail e senha
 
 :teacher:      Endpoint de Curso
 - Criar um Curso
