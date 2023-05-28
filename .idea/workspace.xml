@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="139611be-666c-457a-a803-73b76fde9188" name="Changes" comment="Novas-implementacoes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="Forum/Forum" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Forum-Alura" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="origin" />
+                    <option name="lastUsedInstant" value="1685261104" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="27be263d-afca-49c3-b36a-8405a4231858" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Psu4IFksZdJNqwcWfJ4GXapPkL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "origin",
+    "last_opened_file_path": "C:/Users/iurim/OneDrive/Área de Trabalho/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4624724",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "bbdbe444288550204c968fe7002a97a9",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.br.alura" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ForumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.br.alura.ForumApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ForumApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\iurim\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Novas-implementacoes">
+      <created>1684030269364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684030269364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Novas-implementacoes">
+      <created>1684030901680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684030901680</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Novas-implementacoes">
+      <created>1684031127435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684031127435</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Novas-implementacoes">
+      <created>1684031183327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684031183327</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Novas-implementacoes">
+      <created>1684031341877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684031341877</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Novas-implementacoes">
+      <created>1684031499467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684031499467</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="139611be-666c-457a-a803-73b76fde9188" name="Changes" comment="Novas-implementacoes" />
+      <created>1684257921347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684257921347</updated>
+      <workItem from="1684257926945" duration="153000" />
+      <workItem from="1684550637750" duration="647000" />
+      <workItem from="1684551557450" duration="9000" />
+      <workItem from="1684551948215" duration="4000" />
+      <workItem from="1684551982413" duration="22000" />
+      <workItem from="1684552037268" duration="13000" />
+      <workItem from="1684552525672" duration="10000" />
+      <workItem from="1684552613786" duration="21000" />
+      <workItem from="1684552675820" duration="5000" />
+      <workItem from="1684552772842" duration="270000" />
+      <workItem from="1684553359479" duration="13000" />
+      <workItem from="1684553463982" duration="71000" />
+      <workItem from="1684553736849" duration="26000" />
+      <workItem from="1684554236758" duration="31000" />
+      <workItem from="1684554729408" duration="9000" />
+      <workItem from="1684554779070" duration="2000" />
+      <workItem from="1684554875088" duration="125000" />
+      <workItem from="1684555473968" duration="12000" />
+      <workItem from="1684557425383" duration="7000" />
+      <workItem from="1684619820358" duration="74000" />
+      <workItem from="1684619914931" duration="14000" />
+      <workItem from="1684627789268" duration="640000" />
+      <workItem from="1684631241005" duration="13000" />
+      <workItem from="1684631298502" duration="6000" />
+      <workItem from="1684631362546" duration="4000" />
+      <workItem from="1684631375973" duration="12000" />
+      <workItem from="1684634752596" duration="22000" />
+      <workItem from="1684641968601" duration="19000" />
+      <workItem from="1684642266402" duration="5000" />
+      <workItem from="1684643586579" duration="10000" />
+      <workItem from="1684705133533" duration="7000" />
+      <workItem from="1684721238299" duration="7000" />
+      <workItem from="1684721265540" duration="6000" />
+      <workItem from="1684972903928" duration="36000" />
+      <workItem from="1685256109572" duration="3283000" />
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Forum-Alura" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Desafio-Alura/Forum-Alura" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Forum" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Novas-implementacoes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novas-implementacoes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
