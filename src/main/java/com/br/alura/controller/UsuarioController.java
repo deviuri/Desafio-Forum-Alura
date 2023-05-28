@@ -1,5 +1,6 @@
 package com.br.alura.controller;
 
+import com.br.alura.Configurations;
 import com.br.alura.domain.Autor.CadastroUsuario;
 import com.br.alura.domain.Autor.DetalhamentoUsuario;
 import com.br.alura.domain.Autor.Usuario;
@@ -11,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -20,6 +22,9 @@ public class UsuarioController {
 
     @Autowired
     private UsuarioRepository usuarioRepository;
+
+    @Autowired
+    private PasswordEncoder encoder;
 
     private  void verificar(Usuario usuario){
         if (usuarioRepository.findByEmail(usuario.getEmail()).equals(usuario.getEmail())){
@@ -32,6 +37,7 @@ public class UsuarioController {
     public ResponseEntity<DetalhamentoUsuario> cadastrarUsuario(@RequestBody @Valid CadastroUsuario cadastroUsuario, UriComponentsBuilder uriBuilder){
 
         var usuario = new Usuario(cadastroUsuario);
+        usuario.setSenha(encoder.encode(cadastroUsuario.senha()));
         usuarioRepository.save(usuario);
         verificar(usuario);
 
