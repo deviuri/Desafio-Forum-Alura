@@ -30,7 +30,7 @@ public class FilterToken extends OncePerRequestFilter {
         var authorization = request.getHeader("Authorization");
 
         if (authorization != null){
-            token = authorization.replace("Bearer", "");
+            token = authorization.replace("Bearer ", "");
 
             var subject = this.tokenService.getSubject(token);
 

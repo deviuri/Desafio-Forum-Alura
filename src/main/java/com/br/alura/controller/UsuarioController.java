@@ -1,6 +1,5 @@
 package com.br.alura.controller;
 
-import com.br.alura.Configurations;
 import com.br.alura.domain.Autor.CadastroUsuario;
 import com.br.alura.domain.Autor.DetalhamentoUsuario;
 import com.br.alura.domain.Autor.Usuario;
@@ -17,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
-@RequestMapping("/usuario")
+@RequestMapping("/cadastro")
 public class UsuarioController {
 
     @Autowired

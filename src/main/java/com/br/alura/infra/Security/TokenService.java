@@ -17,7 +17,7 @@ public class TokenService {
                .withSubject(usuario.getEmail())
                .withClaim("id", usuario.getId())
                .withExpiresAt(LocalDateTime.now()
-                       .plusMinutes(10)
+                       .plusHours(1)
                        .toInstant(ZoneOffset.of("-03:00")))
                .sign(Algorithm.HMAC256("jogabola"));
     }

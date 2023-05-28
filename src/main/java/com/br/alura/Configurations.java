@@ -30,8 +30,7 @@ public class Configurations {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and().authorizeRequests()
                 .antMatchers(HttpMethod.POST, "/login").permitAll()
-                .antMatchers(HttpMethod.GET, "/forum").permitAll()
-                .antMatchers(HttpMethod.POST, "/usuario").permitAll()
+                .antMatchers("/cadastro").permitAll()
                 .anyRequest().authenticated().and().addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class).build();
     }
 
@@ -40,5 +39,11 @@ public class Configurations {
             (AuthenticationConfiguration authenticationConfiguration) throws Exception {
 
         return authenticationConfiguration.getAuthenticationManager();
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder(){
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+        return encoder;
     }
 }
