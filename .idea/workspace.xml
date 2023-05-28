@@ -61,6 +61,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Psu4IFksZdJNqwcWfJ4GXapPkL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -79,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "origin",
-    "last_opened_file_path": "C:/Users/iurim/OneDrive/Área de Trabalho/demo",
+    "last_opened_file_path": "C:/Users/iurim/OneDrive/Área de Trabalho/Projeos/challenge-one-forum-alura",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -204,6 +212,8 @@
       <workItem from="1684721265540" duration="6000" />
       <workItem from="1684972903928" duration="36000" />
       <workItem from="1685256109572" duration="3283000" />
+      <workItem from="1685261805456" duration="54000" />
+      <workItem from="1685262034099" duration="22000" />
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />

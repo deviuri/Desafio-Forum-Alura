@@ -2,6 +2,7 @@ package com.br.alura.domain.Topico;
 
 import com.br.alura.domain.Autor.Usuario;
 import com.br.alura.domain.Curso.Curso;
+import com.br.alura.domain.Resposta.CadastroResposta;
 import com.br.alura.domain.Resposta.Resposta;
 import jakarta.persistence.*;
 import jakarta.persistence.criteria.Fetch;
@@ -28,7 +29,7 @@ public class Topico {
 	private LocalDateTime dataCriacao;
 	@Enumerated(EnumType.STRING)
 	private StatusTopico status;
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name="autor_id")
 	private Usuario usuario;
 	@ManyToOne
@@ -44,7 +45,14 @@ public class Topico {
 		this.mensagem = cadastro.mensagem();
 		this.status = cadastro.status();
 		this.dataCriacao = LocalDateTime.now();
+		this.usuario = new Usuario(cadastro.usuario());
+		this.curso = new Curso(cadastro.curso());
 	}
+
+	public Topico(Resposta cadastroResposta){
+		this.respostas.add(cadastroResposta);
+	}
+
 	public void editarTopico(AtualizaçãoTopico topico){
 		if(topico.titulo() != null){
 			this.titulo = topico.titulo();

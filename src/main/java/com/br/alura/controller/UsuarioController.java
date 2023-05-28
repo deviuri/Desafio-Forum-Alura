@@ -29,7 +29,7 @@ public class UsuarioController {
 
     @PostMapping
     @Transactional
-    public ResponseEntity cadastrarUsuario(@RequestBody @Valid CadastroUsuario cadastroUsuario, UriComponentsBuilder uriBuilder){
+    public ResponseEntity<DetalhamentoUsuario> cadastrarUsuario(@RequestBody @Valid CadastroUsuario cadastroUsuario, UriComponentsBuilder uriBuilder){
 
         var usuario = new Usuario(cadastroUsuario);
         usuarioRepository.save(usuario);
@@ -50,7 +50,7 @@ public class UsuarioController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity deletarUsuario(@PathVariable Long id){
+    public ResponseEntity<Void> deletarUsuario(@PathVariable Long id){
         var usuario = usuarioRepository.getReferenceById(id);
 
         usuario.desativar();
@@ -58,7 +58,7 @@ public class UsuarioController {
         return ResponseEntity.noContent().build();
     }
     @GetMapping("/{id}")
-    public ResponseEntity pegarUsuarioPorId(@PathVariable Long id) {
+    public ResponseEntity<DetalhamentoUsuario> pegarUsuarioPorId(@PathVariable Long id) {
 
         var usuario = usuarioRepository.getReferenceById(id);
 

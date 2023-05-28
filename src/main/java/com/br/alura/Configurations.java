@@ -30,6 +30,9 @@ public class Configurations {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and().authorizeRequests()
                 .antMatchers(HttpMethod.POST, "/login").permitAll()
+                .antMatchers(HttpMethod.GET, "/forum").permitAll()
+                .antMatchers(HttpMethod.GET, "/forum/{id}").permitAll()
+                .antMatchers(HttpMethod.POST, "/usuario").permitAll()
                 .anyRequest().authenticated().and().addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class).build();
     }
 

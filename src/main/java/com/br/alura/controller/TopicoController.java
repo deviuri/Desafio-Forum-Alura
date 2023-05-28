@@ -48,6 +48,7 @@ public class TopicoController {
     }
 
     @GetMapping("/{id}")
+    @Transactional(readOnly = true)
     public ResponseEntity pegarTopicoPorId(@PathVariable Long id){
         var topico = topicoRepository.getReferenceById(id);
 
@@ -58,7 +59,7 @@ public class TopicoController {
     @Transactional
     public ResponseEntity<DetalhamentoTopico> cadastrar(@RequestBody @Valid TopicoCadastro cadastro, UriComponentsBuilder uriBuilder) {
 
-        var usuario = new Usuario(cadastro.autor());
+        var usuario = new Usuario(cadastro.usuario());
         usuarioRepository.save(usuario);
 
         var curso = new Curso(cadastro.curso());
@@ -71,12 +72,13 @@ public class TopicoController {
 
         var uri = uriBuilder.path("/forum/{id}").buildAndExpand(topico.getId()).toUri();
 
-//        verificarExistenciaTopico(topico);
+        verificarExistenciaTopico(topico);
 
         return ResponseEntity.created(uri).body(new DetalhamentoTopico(topico));
     }
 
     @GetMapping
+    @Transactional(readOnly = true)
     public ResponseEntity<Page<DetalhamentoTopico>> listar(@PageableDefault(size = 10, sort = {"id"}) Pageable paginacao) {
 
         var  page = topicoRepository.findAllByAtivoTrue(paginacao).map(DetalhamentoTopico::new);
@@ -105,6 +107,7 @@ public class TopicoController {
         return ResponseEntity.noContent().build();
     }
     @GetMapping("/curso/{curso}")
+    @Transactional(readOnly = true)
     public ResponseEntity<List<DetalhamentoTopico>> buscarPorNomeDoCurso(@PathVariable String curso, Pageable pageable) {
 
         Page<Topico> topicos = topicoRepository.findAllByCurso_Nome(pageable, curso);

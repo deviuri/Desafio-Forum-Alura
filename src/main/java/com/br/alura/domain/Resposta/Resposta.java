@@ -10,6 +10,7 @@ import java.time.LocalDateTime;
 
 @Entity(name = "Resposta")
 @Table(name = "resposta")
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")
@@ -26,5 +27,11 @@ public class Resposta {
 	private Usuario usuario;
 	private Boolean solucao = false;
 
-
+	public Resposta(CadastroResposta resposta) {
+		this.mensagem = resposta.mensagem();
+		this.topico = resposta.topico();
+		this.dataCriacao = LocalDateTime.now();
+		this.usuario = resposta.usuario();
+		this.solucao = resposta.solucao();
+	}
 }
